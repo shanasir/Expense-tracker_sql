@@ -15,4 +15,5 @@ COPY . .
 EXPOSE 8080
 
 # 6. Run the app when container starts
-CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.enableCORS=false"]
+CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0", "--server.enableCORS=false"]
+
