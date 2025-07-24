@@ -4,12 +4,12 @@ FROM python:3.11
 # 2. Set working directory inside container
 WORKDIR /app
 
-# 3. Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# 4. Copy all files into the container
+# 3. Copy all files into the container
 COPY requirements.txt .
-Copy . .
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . .
+
+# 4. Install Python dependencies
 
 #5. Port binding
 EXPOSE 8080
