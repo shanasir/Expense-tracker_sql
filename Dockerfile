@@ -5,10 +5,13 @@ FROM python:3.11
 WORKDIR /app
 
 # 3. Copy all files into the container
-COPY . .
+COPY requirements.txt .
 
 # 4. Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 5. Run the app when container starts
-CMD ["python", "main.py"]
+#5. Port binding
+EXPOSE 8080
+
+# 6. Run the app when container starts
+CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.enableCORS=false"]
