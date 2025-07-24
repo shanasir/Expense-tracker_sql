@@ -9,7 +9,7 @@ st.title("💸 Expense Tracker")
 menu = ["Add Transaction", "View Transactions", "View Charts"]
 choice = st.sidebar.radio("Choose an action:", menu)
 
-if choice == "Add Transaction":
+if choice == "Add Transactions":
     st.subheader("➕ Add a New Transaction")
     date = st.date_input("Transaction Date", datetime.today())
     amount = st.number_input("Amount", min_value=0.0)
