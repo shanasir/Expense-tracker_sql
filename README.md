@@ -2,6 +2,7 @@
 
 
 <img width="1848" height="957" alt="Screenshot 2025-07-26 203124 - Copy" src="https://github.com/user-attachments/assets/a99cdcd8-044b-40fc-8a09-e6e4da614956" />
+<img width="1830" height="995" alt="Screenshot 2025-07-26 203429" src="https://github.com/user-attachments/assets/a4731e38-3ea4-4e94-9efe-eb4b33e035dd" />
 <img width="1829" height="1004" alt="image1" src="https://github.com/user-attachments/assets/f125c641-2ca4-4d2e-9868-11caf5389731" />
 ## 🚀 Live Demo
 
