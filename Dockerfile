@@ -9,11 +9,10 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
-# 4. Install Python dependencies
 
-#5. Port binding
+#4. Port binding
 EXPOSE 8080
 
-# 6. Run the app when container starts
+#5. Run the app when container starts
 CMD ["streamlit", "run", "app.py", "--server.port=8080", "--server.address=0.0.0.0", "--server.enableCORS=false"]
 
