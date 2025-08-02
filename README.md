@@ -12,7 +12,7 @@ This is a web-based expense tracker built with **Streamlit**, **MySQL**, and Doc
 
 ## 🐳 Run with Docker
 
-``` In bash
+ In bash
 # Clone the repo
 git clone https://github.com/shanasir/Expense-tracker_sql.git
 cd Expense-tracker_sql
