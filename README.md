@@ -18,8 +18,8 @@ git clone https://github.com/shanasir/Expense-tracker_sql.git
 cd Expense-tracker_sql
 
 # Start the app
-docker-compose up --build
-Then you can go to ur localhost :8080 if u didn't change anything while composing
+docker-compose up --build   
+  Then you can go to ur localhost :8080 if u didn't change anything while composing
 
 
 
