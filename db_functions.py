@@ -34,3 +34,19 @@ def get_totals_by_category():
     results = cursor.fetchall()
     conn.close()
     return results
+
+def initialize_db():
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute("""
+        CREATE TABLE IF NOT EXISTS expenses (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            date DATE,
+            amount DECIMAL(10, 2),
+            category VARCHAR(255),
+            description TEXT
+        )
+    """)
+    conn.commit()
+    cursor.close()
+    conn.close()
