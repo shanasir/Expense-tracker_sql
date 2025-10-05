@@ -8,4 +8,3 @@ def get_connection():
         password="EoBoENuYHtKPkLOFpUVEXoOCrQWiCMYf",
         database="railway"
     )
-mysql://root:EoBoENuYHtKPkLOFpUVEXoOCrQWiCMYf@maglev.proxy.rlwy.net:54922/railway
